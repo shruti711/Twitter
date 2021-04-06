@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitter</title>
+    <link rel="stylesheet" type="text/css"
+        href="file:///C:/Users/shrut/Downloads/fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css">
+    </link>
+    <link rel="stylesheet" href="Twitter.CSS">
+    <script src="Twitter.Js"></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="leftSideBar">
+                <i class="fab fa-twitter fa-2x" style="color: #1da1f2;"></i>
+                <div class="flexContainer">
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="fas fa-home fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Home</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="fas fa-hashtag fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Explore</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="far fa-envelope fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Message</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="fas fa-list fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">List</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="fas fa-at fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Connect</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="far fa-bell fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Notification</div>
+                    </div>
+                    <div class="sidebar">
+                        <div class="twitterIcon">
+                            <i class="far fa-user fa-lg" style="color: #1da1f2;"></i>
+                        </div>
+                        <div class="Text">Profile</div>
+                    </div>
+                    <button class="tweetsButton" onclick="myFunction()">Tweet</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="Text">Home</div>
+                <hr />
+                <div class="inputMessage">
+                    <div>
+                        <i class="far fa-user fa-3x"></i>
+                    </div>
+                    <form>
+                        <input id="message" name="message" onfocus="this.value=''"
+                            placeholder="What Happen's ?"></input>
+                    </form>
+                </div>
+                <div class="tweetContainer">
+                    <div class="twitterIcon">
+                        <i class="fas fa-images fa-lg"></i>
+                        <i class="fas fa-poll fa-lg"></i>
+                        <i class="far fa-smile fa-lg"></i>
+                        <i class="fas fa-calendar-alt fa-lg"></i>
+                    </div>
+                    <button class="tweetButton" onclick="myFunction()">Tweet</button>
+                </div>
+                <div id="demo"></div>
+            </div>
+            <div>
+                <div class="autocomplete">
+                    <div class="searchButton"><i class="fas fa-search"></i></div>
+                    <input class="typeahead" type="text" id="myInput" name="myCountry" placeholder="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px 10px;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 600px 300px;
+    gap: 1rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.leftSideBar {
+    font-size: 19px;
+    padding: 40px;
+}
+
+.main {
+    overflow: auto;
+    padding: 15px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.sidebar {
+    display: flex;
+    margin: 10px 0;
+}
+
+.Text {
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.tweetButton {
+    background-color: rgb(29, 161, 242);
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 20px;
+    min-width: 72px;
+    min-height: 34px;
+}
+
+.tweetButton:hover {
+    opacity: 1.0;
+}
+
+.tweetsButton {
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 40px;
+    margin: 10px 0;
+    opacity: 0.5;
+}
+
+.tweetsButton:hover {
+    opacity: 1.0;
+}
+
+.autocomplete {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 238, 240);
+    padding: 0.75rem 0;
+    margin: 0.75rem;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#myInput {
+    border: none;
+    background-color: rgb(235, 238, 240);
+}
+
+.searchButton {
+    border: none;
+    background-color: rgb(235, 238, 240);
+    padding: 0 0.75rem;
+}
+
+.inputMessage {
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    margin: 0 20px;
+    padding: 0.75rem;
+    text-align: left;
+    border: none;
+    min-width: 400px;
+}
+
+.tweetContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+}
+
+.twitterIcon>i {
+    margin: 0 8px;
+    color: #1da1f2;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+    outline: none;
+}
